@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ffe4ec, #ffd6f0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .keyboard-wrapper {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff0f6;
+    box-shadow: 0 0 25px rgba(255, 105, 180, 0.4);
+  }
+  
+  .keyboard-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    justify-content: center;
+  }
+  
+  .keyboard {
+    background-color: #ffc0cb;
+    border: 1px solid #ff99bb;
+    border-radius: 10px;
+    padding: 14px 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #5a2a3f;
+    cursor: pointer;
+    box-shadow: 0 4px #d88da5;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .keyboard:hover {
+    background-color: #ffb6c1;
+  }
+  
+  .keyboard:active {
+    transform: translateY(4px);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .w-32
+  
